@@ -67,7 +67,7 @@ int List::listSize() const
 	if(!listIsEmpty())
 	{	
 		counter = head;
-		while(counter->next != NULL)
+		while(counter != NULL)
 		{
 			size++;
 			counter = counter->next;			
